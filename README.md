@@ -1,6 +1,4 @@
-# rave
-
-## DreamFactory Rave(tm)
+# DreamFactory Rave&trade;
 This is the DreamFactory Rave&trade; project repository. 
 
 ## Feedback and Contributions

@@ -26,11 +26,15 @@
 		"source": "https://github.com/dreamfactorysoftware/rave"
 	},
 	"require":           {
-		"php":             ">=5.4.6",
-		"kisma/kisma":     "~0.2.46@stable",
-		"symfony/console": "~2.3",
-		"symfony/finder":  "~2.2",
-		"symfony/process": "~2.1"
+		"php":                 ">=5.4.6",
+		"kisma/kisma":         "~0.2.46@stable",
+		"silex/silex":         "~1.2",
+		"twig/twig":           "~1.2",
+		"mheap/silex-assetic": "*",
+		"patchwork/jsqueeze":  "*",
+		"symfony/console":     "~2.3",
+		"symfony/finder":      "~2.2",
+		"symfony/process":     "~2.1"
 	},
 	"minimum-stability": "dev",
 	"extra":             {
