@@ -2,7 +2,8 @@
 /**
  * This file is part of the DreamFactory Rave(tm)
  *
- * Copyright 2014 DreamFactory Software, Inc. <support@dreamfactory.com>
+ * DreamFactory Rave(tm) <http://github.com/dreamfactorysoftware/rave>
+ * Copyright 2012-2014 DreamFactory Software, Inc. <support@dreamfactory.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,22 +17,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-use Rave\Server;
+namespace Rave\Exceptions;
 
 /**
- * bootstrap.php
- * Bootstrap script for PHPUnit tests
+ * RAVE exception class
  */
-$_basePath = dirname( __DIR__ );
-$_vendorPath = $_basePath . '/vendor';
-
-if ( !is_dir( $_vendorPath ) )
+class RaveException extends \Exception
 {
-    echo 'Please run composer install/update before running tests.';
-    exit( 1 );
 }
-//	Composer
-$_autoloader = require( $_basePath . '/vendor/autoload.php' );
 
-$_server = new Server();
-$_server->run();

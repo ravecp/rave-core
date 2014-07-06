@@ -1,43 +1,45 @@
 {
-	"name":              "dreamfactory/rave",
-	"description":       "DreamFactory Rave(tm)",
-	"homepage":          "https://www.dreamfactory.com",
-	"config":            {
+	"name": "dreamfactory/rave",
+	"description": "DreamFactory Rave(tm)",
+	"homepage": "https://www.dreamfactory.com",
+	"config": {
 		"discard-changes": true
 	},
-	"keywords":          ["rest", "framework", "cloud-computing", "remote web services", "rave", "kernel", "service bus", "esb"],
-	"license":           ["Apache-2.0"],
-	"authors":           [
+	"keywords": ["rest", "framework", "cloud-computing", "remote web services", "rave", "kernel", "service bus", "esb"],
+	"license": ["Apache-2.0"],
+	"authors": [
 		{
-			"name":  "Jerry Ablan",
+			"name": "Jerry Ablan",
 			"email": "jerryablan@dreamfactory.com",
-			"role":  "Lead Developer, server-side"
+			"role": "Lead Developer, server-side"
 		},
 		{
-			"name":  "Lee Hicks",
+			"name": "Lee Hicks",
 			"email": "leehicks@dreamfactory.com",
-			"role":  "Lead Developer, server-side"
+			"role": "Lead Developer, server-side"
 		}
 	],
-	"support":           {
-		"email":  "support@dreamfactory.com",
+	"support": {
+		"email": "support@dreamfactory.com",
 		"issues": "https://github.com/dreamfactorysoftware/rave/issues",
-		"wiki":   "https://github.com/dreamfactorysoftware/rave/wiki",
+		"wiki": "https://github.com/dreamfactorysoftware/rave/wiki",
 		"source": "https://github.com/dreamfactorysoftware/rave"
 	},
-	"require":           {
-		"php":                 ">=5.4.6",
-		"kisma/kisma":         "~0.2.46@stable",
-		"silex/silex":         "~1.2",
-		"twig/twig":           "~1.2",
-		"mheap/silex-assetic": "*",
-		"patchwork/jsqueeze":  "*",
-		"symfony/console":     "~2.3",
-		"symfony/finder":      "~2.2",
-		"symfony/process":     "~2.1"
+	"require": {
+		"php": ">=5.4.6",
+		"kisma/kisma": "~0.2.46@stable",
+		"silex/silex": "~1.2",
+		"symfony/console": "~2.3",
+		"symfony/finder": "~2.2",
+		"symfony/process": "~2.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Rave\\": "src/"
+		}
 	},
 	"minimum-stability": "dev",
-	"extra":             {
+	"extra": {
 		"branch-alias": {
 			"dev-develop": "0.1.x-dev"
 		}

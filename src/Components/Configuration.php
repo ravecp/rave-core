@@ -1,4 +1,3 @@
-#!/usr/bin/env php
 <?php
 /**
  * This file is part of the DreamFactory Rave(tm)
@@ -7,7 +6,7 @@
  * Copyright 2012-2014 DreamFactory Software, Inc. <support@dreamfactory.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
+ * you may not use this file except in COMPLIANCE WITH THE LICENSE.
  * You may obtain a copy of the License at
  *
  * http://www.apache.org/licenses/LICENSE-2.0
@@ -18,20 +17,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-require dirname( __DIR__ ) . '/src/bootstrap.php';
+namespace Rave\Components;
 
-use Rave\Utility\Compiler;
-
-error_reporting( -1 );
-ini_set( 'display_errors', 1 );
-
-try 
+/**
+ * Manages the server configuration
+ */
+class Configuration
 {
-    $_compiler = new Compiler();
-    $_compiler->compile();
-}
-catch ( \Exception $_ex)
-{
-	echo 'Failed to compile phar: [' . get_class( $_ex) . '] ' . $_ex->getMessage()  .' at ' . $_ex->getFile() . ':' . $_ex->getLine();
-    exit( 1 );
 }
