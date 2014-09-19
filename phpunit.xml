@@ -4,7 +4,7 @@
 		<ini name="memory_limit" value="2048M" />
 	</php>
 
-	<testsuite name="DreamFactory Services Platform Test Suite">
+	<testsuite name="RAVE Core Server">
 		<directory>./tests/src</directory>
 		<exclude>./vendor</exclude>
 	</testsuite>

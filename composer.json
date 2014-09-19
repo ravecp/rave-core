@@ -1,7 +1,7 @@
 {
-	"name":              "dreamfactory/rave",
-	"description":       "DreamFactory Rave(tm)",
-	"homepage":          "https://www.dreamfactory.com",
+	"name":              "rave/rave-core",
+	"description":       "RAVE(tm) Core Server",
+	"homepage":          "https://www.dreamfactory.com/",
 	"config":            {
 		"discard-changes": true
 	},
@@ -11,21 +11,17 @@
 		{
 			"name":  "Jerry Ablan",
 			"email": "jerryablan@dreamfactory.com"
-		},
-		{
-			"name":  "Lee Hicks",
-			"email": "leehicks@dreamfactory.com"
 		}
 	],
 	"support":           {
 		"email":  "support@dreamfactory.com",
-		"source": "https://github.com/dreamfactorysoftware/rave",
-		"issues": "https://github.com/dreamfactorysoftware/rave/issues",
-		"wiki":   "https://github.com/dreamfactorysoftware/rave/wiki"
+		"source": "https://github.com/ravecp/rave-core",
+		"issues": "https://github.com/ravecp/rave-core/issues",
+		"wiki":   "https://github.com/ravecp/rave-core/wiki"
 	},
 	"require":           {
 		"php":         ">=5.4.6",
-		"kisma/kisma": "~0.2.46@stable",
+		"kisma/kisma": "0.2.*",
 		"silex/silex": "~1.2"
 	},
 	"autoload":          {

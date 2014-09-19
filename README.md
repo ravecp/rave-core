@@ -1,7 +1,4 @@
-# DreamFactory Rave&trade;
-This is the DreamFactory Rave&trade; project repository. 
-
-## Feedback and Contributions
+## RAVE(tm) Cloud Platform
 
 * Feedback is welcome in the form of pull requests and/or issues.
 * Contributions should generally follow the strategy outlined in ["Contributing
